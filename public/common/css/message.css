@@ -1,0 +1,16 @@
+/* CSS Document */
+
+/*message board*/
+.main{ background:url(../img/news_title.png) 0 -138px no-repeat; margin-top:80px; padding-top:45px;}
+.message-board{ background:#fafafa; border:1px solid #dfdfdf; padding:25px 48px;}
+.message-board dl{ margin:10px 0; font-size:14px;}
+.message-board dt,.message-board dd{ float:left; line-height:32px;}
+.message-board dt.line-height-none{ line-height:normal;}
+.message-board dd{ margin-right:30px;}
+.message-board dd span{ margin-right:20px;}
+.message-board dd input,.message-board textarea{ border:1px solid #cbcbcb;}
+.message-board textarea{ width:450px;}
+.message-submit{ margin-top:30px; margin-left:70px;}
+.message-submit input{ border:none; background:url(../img/lines.png) 0 -40px no-repeat; cursor:pointer; width:443px; height:38px;}
+.font-red{ color:#cc0000; font-size:12px;}
+.input-style{ width:190px; height:30px; font-size:14px; padding:0 5px;}

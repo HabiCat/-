@@ -1,0 +1,60 @@
+/*** wiki CSS Document ***/
+
+/* banner ad */
+.main .ad{ margin:15px 0 20px 0;}
+
+/* news list */
+.main-left{ width:645px;}
+.news-list-title{ height:23px; background:url(../img/news_title.png) no-repeat;}
+.news-list{ margin:10px 0 30px 0; position:relative;}
+.news-list .news{ border-bottom:1px solid #f1f1f1; padding-bottom:5px; margin-bottom:15px;}
+.news .category{ padding:3px 5px 3px 0; margin-right:10px; background:url(../img/icons.png) right bottom no-repeat;}
+.news .category a{ font-size:12px; color:#FFF; background:#386ea6; padding:4px 5px; font-weight:normal; text-decoration:none;}
+
+.news h4{ font-size:16px;}
+.news .news-info{ line-height:36px; color:#acacac;}
+.news-info span{ margin-right:30px;}
+.news img{ margin-right:15px;}
+.news p{ color:#323232; line-height:23px; }
+.news p a{ font-weight:700;}
+.wiki-description{ width:500px;}
+.news .tags{ word-break:break-all;}
+.news .tags,.news .tags a{ color:#acacac; margin-top:10px;}
+.news .tags a{ margin-right:10px;}
+
+/* main right */
+.main-right{ width:295px;}
+.paiqian-case,.paiqian-info,.paiqian-law{ margin-bottom:20px; position:relative;}
+.paiqian-case-title{ height:23px; background:url(../img/news_title.png) 0 -30px no-repeat;}
+.paiqian-info-title{ height:23px; background:url(../img/news_title.png) 0 -60px no-repeat;}
+.paiqian-law-title{ height:23px; background:url(../img/news_title.png) 0 -88px no-repeat;}
+.main-right ul{ border:2px solid #e4e4e4; padding:10px; font-size:14px; margin-top:10px;}
+.main-right ul li{ background:url(../img/icons.png) 0 -72px no-repeat; line-height:24px; padding-left:20px;}
+
+/* public of main-left and main-right */
+.list-title-line{ height:23px; background:url(../img/lines.png) 85px 5px no-repeat;}
+.bottom-line{ width:100%; height:5px; position:absolute; left:-1px; bottom:-3px; background:url(../img/lines.png) 0 -25px no-repeat;}
+.margin-top{ margin-top:20px;}
+
+/*** paiqian news CSS Document ***/
+.path{ height:30px; line-height:30px; border-bottom:1px solid #dddddd; margin-bottom:10px;}
+
+/* article */
+h1{ font-size:20px; line-height:40px;}
+.article .art-info{ color:#929090; padding-bottom:10px; margin-bottom:20px; border-bottom:1px dashed #929090;}
+.article .art-info span{ margin-right:20px;}
+.article .content p{ font-size:14px; line-height:26px;}
+.article-tags{ margin:20px 0; background:url(../img/icons.png) 0 -190px no-repeat; height:23px; line-height:23px; color:#fff; padding-left:50px;}
+.article-tags a{ padding:10px; color:#6289b4; font-weight:bold;}
+.share-button{ margin-bottom:20px; line-height:23px;}
+
+/* related news */
+.related-news{ background:#fafafa; margin-bottom:20px;}
+.related-news .related-news-title{ border-bottom:1px solid #dddddd;}
+.related-news-title em{color:#333; float:left; border-bottom:2px solid #888; height:28px; line-height:28px; padding:0 15px;}
+.related-news ul{ padding:10px 20px; margin-left:30px;}
+.related-news ul li{ line-height:28px; font-size:14px; list-style:disc; color:#4da6ff;}
+.related-news ul li span{ margin-left:30px; font-size:12px; color:#929090;}
+
+/* comment */
+.comment .comments{ background:#fafafa; height:100px; margin-top:20px;}

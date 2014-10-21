@@ -1,0 +1,113 @@
+@charset "utf-8";
+/*** paiqian first page ***/
+
+/* main */
+.slogan{ margin-bottom:20px;}
+.marginr{ margin-right:20px;}
+.border{ border:1px solid #dcdcdc; padding:10px 0 10px 10px;}
+
+/* work list */
+.main-left{ width:640px;}
+.title-bar span{ padding:9px 12px; font-size:14px;}
+.title-bar .light{ background:#3a6fa5; color:#FFF;}
+.work-list .work-content{ width:299px; border-bottom:1px dotted #eaeaea; margin-top:20px; color:#666; float:left; padding-bottom:10px;}
+.work-list .work-content dt{ margin-right:10px;}
+.work-list .work-content dd{ width:170px; }
+.work-content img{ border:1px solid #e6e6e6;}
+.work-content h4 a{ font-size:14px; color:#000; }
+.work-content .more-info{ margin:10px 0;}
+.work-content .company,.work-content .time{ padding-left:20px; width:150px; height:14px; line-height:14px; overflow:hidden; margin:5px 0;}
+.work-content .company{ background:url(../img/icons.png) 0 1px no-repeat; margin-top:10px;}
+.work-content .time{ background:url(../img/icons.png) 0 -23px no-repeat; margin-bottom:10px;}
+.work-content .check-more{ padding:5px 10px; line-height:28px; background:#326da5; color:#FFF; text-align:center; text-decoration:none; }
+
+/* pedia-list */
+.title{ color:#386ea6; font-size:16px; font-weight:700;}
+.pedia-list{ margin:20px 0; border:1px solid #eaeaea; padding:10px 0 10px 20px;}
+.pedia{ width:290px; float:left; border-bottom:1px dashed #eaeaea; padding-bottom:10px; margin-top:15px;}
+.pedia h4{ font-size:16px; _font-size:14px; width:290px; height:24px; line-height:24px; overflow:hidden;}
+.pedia h4 a{ color:#333;}
+.pedia .category{ float:left; padding-right:6px; margin-right:5px; background:url(../img/icons.png) right bottom no-repeat;}
+.pedia .category a{ float:left; padding:0 5px; height:23px; font-size:12px; color:#FFF; background:#386ea6; font-weight:normal; text-decoration:none;}
+.pedia .pedia-info{ line-height:36px; color:#acacac;}
+.pedia-info span{ margin-right:30px;}
+.pedia p{ color:#323232; line-height:23px; }
+.pedia p a{ font-weight:700;}
+.pedia .tags{ word-break:break-all;}
+.pedia .tags,.news .tags a{ color:#acacac; margin-top:10px;}
+.pedia .tags a{ margin-right:10px;}
+
+/* recommend info */
+.main-right{ width:300px;}
+.recommend-info{ margin:20px 0; padding:5px 12px; border:2px solid #e6e6e6;}
+.recommend-info li{ margin:5px 0; font-size:14px;}
+.recommend-info li a{ color:#6289b4;}
+.recommend-info-title{ height:23px; background:url(../img/icons.png) -5px -50px no-repeat; margin-bottom:5px;}
+.recommend-info img{ float:left;}
+.pic-info{ border-bottom:1px dotted #b6b6b6; padding-bottom:10px;}
+.pic-info h4{ margin:5px 0;}
+.pic-info h4 a{ text-decoration:none; color:#000;}
+.pic-info h4 a:hover{ color:#F00;}
+.pic-info p{ color:#666; font-size:12px;}
+.recommend-info p{ float:right; width:160px; line-height:16px;}
+.li-style{ background:url(../img/icons.png) -5px -74px no-repeat; padding-left:13px;}
+
+/* recommend work */
+.recommend-work{ padding-bottom:20px; border:1px solid #e6e6e6; position:relative;}
+.recommend-work .recommend-bg{ width:21px; height:23px; background:url(../img/icons.png) 0 -155px no-repeat; position:absolute; top:-1px; left:278px;}
+.recommend-work .recommend-work-title{ height:23px; background:url(../img/icons.png) 8px -115px no-repeat; margin:5px 0 8px 0;}
+.recommend-work dl{}
+.recommend-work dt,.recommend-work dd{ width:275px; height:28px; line-height:28px; padding-left:23px; overflow:hidden;}
+.recommend-work dt{ background:url(../img/icons.png) 10px -89px no-repeat;}
+.recommend-work dd{ background:#f5f5f5;}
+.recommend-work dd a{ margin-right:15px; color:#326da5;}
+
+/* ad */
+.ad-pic{ margin-top:20px;}
+
+/*** job list page ***/
+
+/* focus */
+.focus{ }
+.focus{ position:relative; width:640px; height:335px; margin:20px 0; background-color:#000; float:left;}  
+.focus img{ width:640px; height:335px;} 
+.focus .shadow .title{ width:260px; height:65px; padding-left:30px; padding-top:20px;}
+.focus .shadow .title a{ text-decoration:none; color:#fff; font-size:14px; font-weight:bolder; overflow:hidden;}
+.focus .btn{ position:absolute; bottom:34px; left:510px; overflow:hidden; zoom:1;} 
+.focus .btn a{ position:relative; display:inline; width:13px; height:13px; border-radius:7px; margin:0 5px; color:#B0B0B0; font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#d9d9d9; }  
+.focus .btn a:hover,.focus .btn a.current{ cursor:pointer; background:#fc114a;}  
+.focus .focus-pics{ position:absolute; left:0px; top:0px;}  
+.focus .focus-title{ overflow:hidden; zoom:1;  height:16px; z-index:10;}  
+.focus .shadow{ width:100%; position:absolute; bottom:0; left:0px; z-index:10; height:40px; line-height:40px; background:#000;filter:alpha(opacity=50);
+-moz-opacity:0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5; display:block; text-align:left;}  
+.focus .shadow a{ text-decoration:none; color:#fff; font-size:20px; overflow:hidden; margin-left:10px; font-family: "\5FAE\8F6F\96C5\9ED1";}  
+.focus .focus-img{ position:relative; width:100%; float:left; display:none; background:#000;}  
+.focus .focus-img img{ display:block;}  
+.focus .focus-title-bg{ position:absolute; left:540px; top:305px; height:21px; text-align:center; z-index:200;}  
+.focus .focus-title-bg div{ margin:4px auto 0; overflow:hidden ;zoom:1; height:14px; }    
+.focus .focus-title a{ position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#d9d9d9;}    
+.focus .focus-title .current,.focus .focus-title a:hover{ background:#fc114a;}    
+.focus .focus-title img{ display:none}    
+.focus .focus-title i{ display:none; font-style:normal; }    
+.focus .prev,.focus .next{ position:absolute;width:40px;height:74px;background: url(../img/focus_btn.png) no-repeat;}
+.focus .prev{ top:50%; margin-top:-37px; left:0; background-position:0 -74px; cursor:pointer; }  
+.focus .next{ top:50%; margin-top:-37px; right:0;  background-position:-40px -74px; cursor:pointer;}  
+.focus .prev:hover{ background-position:0 0;}  
+.focus .next:hover{ background-position:-40px 0;}  
+
+/* work list */
+.title-bar span{ padding:9px 12px; font-size:14px;}
+.title-bar .light{ background:#3a6fa5; color:#FFF;}
+.work-list .work{ border-bottom:1px solid #eaeaea; height:155px; margin-top:20px; color:#666;}
+.work-list .work dt{ margin-right:15px;}
+.work-list .work dd{ width:420px; position:relative;}
+.work h4{ font-size:14px; color:#000;}
+.work .more-info{ margin:10px 0;}
+.work .more-info .company{ background:url(../img/icons.png) 0 1px no-repeat; padding-left:20px; margin-right:20px;}
+.work .more-info .time{ background:url(../img/icons.png) 0 -23px no-repeat; padding-left:20px;}
+.work .more{ float:right; position:absolute; top:120px; left:335px; width:85px; height:28px; line-height:28px; background:#326da5; color:#FFF; text-align:center; text-decoration:none; }
+
+.keywords{ margin:20px 0; border:1px solid #e6e6e6; height:360px;}
+.weibo{ width:300px; margin-top:20px;}

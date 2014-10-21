@@ -1,0 +1,19 @@
+/* CSS Document */
+
+/* apply */
+.top{ width:960px; margin:0 auto; padding-top:10px;}
+.top-logo .logo{float:left; width:130px; height:50px; overflow:hidden; background:url(../img/logo1.png) 0 4px no-repeat; text-indent:-10em;}
+.top-backhome{ font-size:16px; font-weight:700; margin-top:15px;}
+
+.main{ margin-top:20px;}
+.main-left{ width:640px;}
+.main-left .notice-content h1{ font-size:22px; text-align:center; height:45px; line-height:45px;}
+.notice-content textarea{ width:610px; font-size:14px; line-height:28px; padding:10px 15px; border:1px solid #dfdfdf;}
+.notice-content .content{ text-align:center; margin-top:20px;}
+.content input{ border:none; background:#386ea6; width:110px; height:40px; color:#FFF; font-size:16px; cursor:pointer;}
+
+.main-right{ width:300px; margin-top:48px; text-align:center; padding-top:20px;}
+.main-right .main-right-title{ font-size:18px; color:#cc0000; font-weight:700;}
+.main-right dl{ margin-top:10px;}
+.main-right dt img{ border:1px solid #dfdfdf; padding:10px;}
+.main-right dd{ font-size:18px; height:40px; line-height:40px;}

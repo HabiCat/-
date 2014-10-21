@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+RewriteRule ^(.*)/jobs\.html$ $1/home/jobs
+RewriteRule ^(.*)/jobs/(\d+)\.html$ $1/home/jobs/$2
+RewriteRule ^(.*)/news\.html$ $1/home/news
+RewriteRule ^(.*)/news/(\d+)\.html$ $1/home/news/$2
+RewriteRule ^(.*)/wiki\.html$ $1/home/wiki
+RewriteRule ^(.*)/wiki/(\d+)\.html$ $1/home/wiki/$2
+RewriteRule ^(.*)/message\.html$ $1/home/message
+RewriteRule ^(.*)/post/(\d+)\.html$ $1/home/post/$2
+RewriteRule ^(.*)/job/(\d+)\.html$ $1/home/job/$2
+RewriteRule ^(.*)/protocol/(\d+)\.html$ $1/home/protocol/$2
+RewriteRule ^(.*)/reply/(\d+)\.html$ $1/home/reply/$2
+RewriteRule ^(.*)/previewpost/(\d+)\.html$ $1/home/previewpost/$2

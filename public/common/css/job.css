@@ -1,0 +1,40 @@
+/* CSS Document */
+
+/** public css **/
+.font-red{ color:#e6775c; font-weight:700;}
+.hidden{ display:none;}
+
+/* notice */
+.notice{ height:32px; line-height:32px; color:#ff6600; background:url(../img/icons.png) 0 -220px no-repeat; padding-left:20px;}
+.job{ background:#fafafa; border-top:1px solid #dfdfdf; padding:10px 10px;}
+.job h1{ font-size:22px;}
+.apply{ background:#386ea6; color:#FFF; font-size:16px; font-weight:700; padding:5px 10px; margin-top:3px;}
+.job-point{ font-size:16px; color:#666666; padding-left:2px;}
+
+/* main left */
+.main-left{ width:640px;}
+.job-tags{ margin-top:30px;}
+.job-tags span{ background:url(../img/icons.png) 0 -246px no-repeat; padding:10px 20px; margin-left:20px; font-size:16px;}
+.job-info{ margin:10px 0;}
+.job-info span{ color:#666666; margin:0 20px; font-size:14px;}
+.select-tab{ margin-top:30px; font-size:20px; border-bottom:1px solid #dfdfdf;}
+.select-tab li{ float:left; padding:5px 15px; cursor:pointer; color:#666666;}
+.select-tab li.selected{ border-top:2px solid #386ea6; border-left:1px solid #dfdfdf; border-right:1px solid #dfdfdf; border-bottom:1px solid #FFF; margin-bottom:-1px; font-weight:700;}
+.job-content{ padding:20px 10px;}
+
+/* main right */
+.main-right{ width:300px;}
+.company-info{ background:#fafafa; padding:15px; margin-top:10px;}
+.company-info li{ color:#666666; line-height:28px;}
+.company-info h4{ font-size:20px; color:#000000;}
+
+.similar-jobs{ margin-top:20px;}
+.similar-jobs li,.similar-jobs dt{ float:left;}
+.similar-jobs{ border-bottom:1px solid #e9e9e9;}
+.similar-jobs .similar-tab{ border-bottom:2px solid #e9e9e9;}
+.similar-tab li{ float:left; font-size:14px; padding:0 10px; color:#777777; cursor:pointer;}
+.similar-tab li.selected{ border-bottom:2px solid #386ea6; margin-bottom:-2px;}
+
+.similar-jobs dl{ margin:5px 0; padding:10px 0; color:#8a8787; font-size:14px; border-bottom:1px dashed #f7efef;}
+.similar-jobs dt{ border:1px solid #f7efef; margin-right:15px;}
+
